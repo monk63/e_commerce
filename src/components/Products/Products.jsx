@@ -3,8 +3,8 @@ import {Grid} from '@material-ui/core';
 import Product from './Product/Product';
 
 const products =[
-    {id:1, name: 'Mobile Phone', description: 'Samsung s10',price:'$5'},
-    {id:1, name: 'Laptop', description: 'MSI GF',price:'$10'},
+    {id:1, name: 'Mobile Phone', description: 'Samsung s10',price:'$5',image:''},
+    {id:1, name: 'Laptop', description: 'MSI GF',price:'$10',image:''},
 ]
 
 const Products = () =>{
@@ -19,7 +19,7 @@ const Products = () =>{
         ))}
         </Grid>
     </main>
-    );
+    ); 
 
 }
 
